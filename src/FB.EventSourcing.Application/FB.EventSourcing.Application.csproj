@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Autofac" Version="5.0.0" />
+      <PackageReference Include="AutoMapper" Version="9.0.0" />
+      <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="3.1.1" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.5.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FB.EventSourcing.Application.Contracts\FB.EventSourcing.Application.Contracts.csproj" />
+      <ProjectReference Include="..\FB.EventSourcing.Persistence.EntityFrameworkCore\FB.EventSourcing.Persistence.EntityFrameworkCore.csproj" />
+      <ProjectReference Include="..\FB.EventSourcing.Persistence\FB.EventSourcing.Persistence.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="Microsoft.AspNetCore.Authentication, Version=3.1.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+        <HintPath>..\..\..\..\..\..\..\..\usr\local\share\dotnet\packs\Microsoft.AspNetCore.App.Ref\3.1.0\ref\netcoreapp3.1\Microsoft.AspNetCore.Authentication.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
