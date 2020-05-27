@@ -49,6 +49,9 @@ namespace FB.EventSourcing.Application.Users
             if (user == null)
                 throw new UserFriendlyException("The user does not found!");
 
+            user.ChangeEmail(command.Email);
+            await _userRepository.SaveChanges();
+
             return user;
         }
     }
