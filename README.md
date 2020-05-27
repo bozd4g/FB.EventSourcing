@@ -6,4 +6,4 @@ These concepts using for Distributed Systems like microservices or monolith appl
 ## Articles
 
 - Take a look at CQRS and Event Sourcing with DDD — [Part 1](https://bit.ly/3bRRDjb "Take a look at CQRS and Event Sourcing with DDD") 
-- Take a look at CQRS and Event Sourcing with DDD — Part 2 (WIP)
+- Take a look at CQRS and Event Sourcing with DDD — [Part 2](https://bit.ly/2M1JUEB "Take a look at CQRS and Event Sourcing with DDD")
